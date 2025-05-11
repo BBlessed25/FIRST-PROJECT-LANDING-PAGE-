@@ -1,6 +1,7 @@
 .body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
     height: 100%;
     
@@ -119,6 +120,20 @@
   .card p {
     font-size: 13px;
     color: #333;
+  }
+
+  .reviews {
+    background-color: #E5E7EB;
+    padding: 60px 100px;
+    font-size: 36px;
+    color: #1F2937
+    font-style: light italic;
+  }
+  
+  .name {
+    text-align: right;
+    margin-top: 20px;
+    font-style: normal;
   }
   
   
