@@ -136,6 +136,43 @@
     font-style: normal;
   }
   
+  .Signup {
+    padding: 60px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Signup-box {
+    background-color: #3882F6;
+    color: white;
+    padding: 30px 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .Signup-box button {
+    background-color: #3882f6;
+    color: white;
+    padding: 0px 40px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 15px;
+    border-color: #ffffff;
+  
+    
+  }
+  
+  .footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
   
   
   
