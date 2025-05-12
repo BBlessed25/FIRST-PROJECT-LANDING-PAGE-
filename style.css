@@ -1,7 +1,10 @@
-body {
+.body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
+    height: 100%;
+    
   }
   
   .header {
@@ -10,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 60px;
+    padding: 10px 30px;
     flex-wrap: wrap;
   }
   
@@ -32,7 +35,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 60px;
+    padding: 15px 40px;
     flex-wrap: wrap;
   }
   
@@ -73,7 +76,103 @@ body {
     object-fit: cover;
     border-radius: 10px;
   }
+
+  .info-section {
+    text-align: center;
+    padding: 60px 40px;
+  }
   
+  .info-section h2 {
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+  
+  .info-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    text-align: center;
+    width: 180px;
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+
+  .card p {
+    font-size: 13px;
+    color: #333;
+  }
+
+  .reviews {
+    background-color: #E5E7EB;
+    padding: 60px 100px;
+    font-size: 36px;
+    color: #1F2937
+    font-style: light italic;
+  }
+  
+  .name {
+    text-align: right;
+    margin-top: 20px;
+    font-style: normal;
+  }
+  
+  .Signup {
+    padding: 60px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Signup-box {
+    background-color: #3882F6;
+    color: white;
+    padding: 30px 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .Signup-box button {
+    background-color: #3882f6;
+    color: white;
+    padding: 0px 40px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 15px;
+    border-color: #ffffff;
+  
+    
+  }
+  
+  .footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
   
   
   
